@@ -16,10 +16,10 @@ edit ```.azure/user-date-app_name/.env```
 ```
 AZD_ALLOW_NON_EMPTY_FOLDER="true"
 AZURE_ENV_NAME="user-date-app_name"
-AZURE_EXISTING_AIPROJECT_ENDPOINT="https://062625-temp-resource.openai.azure.com/"
-AZURE_EXISTING_AIPROJECT_RESOURCE_ID="/subscriptions/338e3830-783f-4335-9482-fed7760efe6e/resourceGroups/062625-resource/providers/Microsoft.CognitiveServices/accounts/062625-temp-resource/projects/062625-temp"
-AZURE_LOCATION="westus"
-AZURE_SUBSCRIPTION_ID="338e3830-783f-4335-9482-fed7760efe6e"
+AZURE_EXISTING_AIPROJECT_ENDPOINT="https://name-of-resource.openai.azure.com/"
+AZURE_EXISTING_AIPROJECT_RESOURCE_ID="your-resource-id-here"
+AZURE_LOCATION="name-of-location"
+AZURE_SUBSCRIPTION_ID="your-subscription-id-here"
 ```
 7. deploy
 ```azd up```
